@@ -1,0 +1,35 @@
+baseURL = "https://example.org/"
+languageCode = "en-us"
+title = "Portfólio da Equipe"
+theme = "PaperMod"
+
+[params]
+    author = "Lizandra, Bruna e Gabriel"
+    description = "O portfólio de projetos da nossa equipe. 🚀"
+    
+    # Configuração do Modo Dark/Light
+    defaultTheme = "auto" 
+    disableThemeToggle = false
+
+    # Isto ESTÁ AGORA DESATIVADO:
+    # [params.homeInfoParams]
+    #    Title = "Olá, nós somos a Equipe 🚀"
+    #    Content = "Bem-vindo ao nosso portfólio digital. Somos um time de 3 alunos (Lizandra, Bruna e Gabriel) a construir projetos incríveis com Hugo e GitLab. Veja os nossos perfis abaixo!"
+
+    # Links para redes sociais (pode pôr o do grupo ou da Lizandra)
+    [[params.socialIcons]]
+        name = "github"
+        url = "https://github.com/LizandraAbelha"
+
+[menu]
+  # Isto cria o menu principal
+  [[menu.main]]
+    identifier = "equipe"
+    name = "Integrantes"
+    url = "/equipe/"
+    weight = 10
+  [[menu.main]]
+    identifier = "sobre"
+    name = "Sobre o Projeto"
+    url = "/sobre/"
+    weight = 20

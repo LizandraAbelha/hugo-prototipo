@@ -1,0 +1,9 @@
+[submodule "nomad-tech"]
+	path = nomad-tech
+	url = https://github.com/m03315/nomad-tech.git
+[submodule "themes/nomad-tech"]
+	path = themes/nomad-tech
+	url = https://github.com/m03315/nomad-tech.git
+[submodule "themes/PaperMod"]
+	path = themes/PaperMod
+	url = https://github.com/adityatelange/hugo-PaperMod.git
