@@ -1,0 +1,35 @@
+# Nome do seu fluxo de trabalho
+name: Deploy Hugo Site to GH Pages
+
+on:
+  # Corre este robô sempre que você fizer 'git push' para a branch 'main'
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out
+        uses: actions/checkout@v4
+
+      # Instala o Hugo (versão extended)
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v3
+        with:
+          hugo-version: 'latest'
+          extended: true
+
+      # Constrói o site
+      - name: Build
+        run: hugo --minify
+
+      # Publica o site
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          # Este é o "token" que permite ao robô escrever no seu repositório
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          # O nome da branch onde o site final será guardado
+          publish_branch: gh-pages

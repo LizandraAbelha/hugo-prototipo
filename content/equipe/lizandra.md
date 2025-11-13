@@ -6,7 +6,7 @@ description: "Desenvolvedora Front-end da equipe."
 
 # Esta imagem de perfil é específica da página
 cover:
-    image: "/images/lizandra-perfil.jpg" 
+    image: "/images/lizz.png" 
     alt: "Foto de perfil da Lizandra"
 ---
 

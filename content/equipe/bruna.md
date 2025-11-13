@@ -6,7 +6,7 @@ description: "Desenvolvedora Back-end da equipe."
 
 # Coloque a foto dela em 'static/images/bruna-perfil.jpg'
 cover:
-    image: "/images/bruna-perfil.jpg"
+    image: "/images/brum.jpg"
     alt: "Foto de perfil da Bruna"
 ---
 

@@ -6,7 +6,7 @@ description: "Gestor de Projetos da equipe."
 
 # Coloque a foto dele em 'static/images/gabriel-perfil.jpg'
 cover:
-    image: "/images/gabriel-perfil.jpg"
+    image: "/images/gabss.jpg"
     alt: "Foto de perfil do Gabriel"
 ---
 
