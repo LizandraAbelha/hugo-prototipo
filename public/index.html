@@ -1,136 +1,125 @@
 <!DOCTYPE html>
-<html lang="en" dir="auto" data-theme="auto">
-
+<html lang="pt-br" dir="ltr">
 <head>
-	<meta name="generator" content="Hugo 0.150.0"><script src="/hugo-prototipo/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=hugo-prototipo/livereload" data-no-instant defer></script><meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<meta name="robots" content="noindex, nofollow">
+	<meta name="generator" content="Hugo 0.150.0"><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <!-- head.html --><!-- meta.html -->
+
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Portfólio da Equipe</title>
+<meta name="author" content="">
+<meta name="description" content="Bem-vindo ao nosso projeto! Este site foi inteiramente construído com Hugo, e esta página serve como um guia prático sobre como o fizemos e como a …" >
+<meta name="keywords" content="Homepage">
+<link rel="canonical" href="http://localhost:1313/">
 
-<meta name="description" content="O portfólio de projetos da nossa equipe. 🚀">
-<meta name="author" content="Lizandra, Bruna e Gabriel">
-<link rel="canonical" href="http://localhost:1313/hugo-prototipo/">
-<link crossorigin="anonymous" href="/hugo-prototipo/assets/css/stylesheet.0d920908f7adff91fc67cc8154db9335f2e387893133b6e1e644890dc196dabe.css" integrity="sha256-DZIJCPet/5H8Z8yBVNuTNfLjh4kxM7bh5kSJDcGW2r4=" rel="preload stylesheet" as="style">
-<link rel="icon" href="http://localhost:1313/hugo-prototipo/favicon.ico">
-<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/hugo-prototipo/favicon-16x16.png">
-<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/hugo-prototipo/favicon-32x32.png">
-<link rel="apple-touch-icon" href="http://localhost:1313/hugo-prototipo/apple-touch-icon.png">
-<link rel="mask-icon" href="http://localhost:1313/hugo-prototipo/safari-pinned-tab.svg">
-<meta name="theme-color" content="#2e2e33">
-<meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" type="application/rss+xml" href="http://localhost:1313/hugo-prototipo/index.xml" title="rss">
-<link rel="alternate" hreflang="en" href="http://localhost:1313/hugo-prototipo/">
-<noscript>
+
+
+    <link rel="alternate" type="application/rss+xml" href="http://localhost:1313/index.xml" title="Portfólio da Equipe (RSS)" />
+    <!-- js.html -->
+
+
+    <script src="http://localhost:1313/js/hugo-brewm.min.js" defer></script><!-- css.html -->
+
+
+    <link rel="stylesheet" href="http://localhost:1313/css/hugo-brewm.min.css">
+
+
+
+    <!-- css/inline.html -->
     <style>
-        #theme-toggle,
-        .top-link {
-            display: none;
-        }
-
+         
+        body {max-width: 786px; margin: auto; padding: 2rem;}
+        img {max-width: 86vw;}
     </style>
-    <style>
-        @media (prefers-color-scheme: dark) {
-            :root {
-                --theme: rgb(29, 30, 32);
-                --entry: rgb(46, 46, 51);
-                --primary: rgb(218, 218, 219);
-                --secondary: rgb(155, 156, 157);
-                --tertiary: rgb(65, 66, 68);
-                --content: rgb(196, 196, 197);
-                --code-block-bg: rgb(46, 46, 51);
-                --code-bg: rgb(55, 56, 62);
-                --border: rgb(51, 51, 51);
-                color-scheme: dark;
-            }
-
-            .list {
-                background: var(--theme);
-            }
-
-            .toc {
-                background: var(--entry);
-            }
-        }
-
-        @media (prefers-color-scheme: light) {
-            .list::-webkit-scrollbar-thumb {
-                border-color: var(--code-bg);
-            }
-        }
-
-    </style>
-</noscript>
-<script>
-    if (localStorage.getItem("pref-theme") === "dark") {
-        document.querySelector("html").dataset.theme = 'dark';
-    } else if (localStorage.getItem("pref-theme") === "light") {
-       document.querySelector("html").dataset.theme = 'light';
-    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
-        document.querySelector("html").dataset.theme = 'dark';
-    } else {
-        document.querySelector("html").dataset.theme = 'light';
-    }
-
-</script>
-</head>
-<body class="list" id="top">
-    <header class="header">
-    <nav class="nav">
-        <div class="logo">
-            <a href="http://localhost:1313/hugo-prototipo/" accesskey="h" title="Portfólio da Equipe (Alt + H)">Portfólio da Equipe</a>
-            <div class="logo-switches">
-                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
-                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
-                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                        stroke-linejoin="round">
-                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
-                    </svg>
-                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
-                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                        stroke-linejoin="round">
-                        <circle cx="12" cy="12" r="5"></circle>
-                        <line x1="12" y1="1" x2="12" y2="3"></line>
-                        <line x1="12" y1="21" x2="12" y2="23"></line>
-                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
-                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
-                        <line x1="1" y1="12" x2="3" y2="12"></line>
-                        <line x1="21" y1="12" x2="23" y2="12"></line>
-                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
-                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
-                    </svg>
-                </button>
-            </div>
-        </div>
-        <ul id="menu">
-            <li>
-                <a href="http://localhost:1313/hugo-prototipo/equipe/" title="Integrantes">
-                    <span>Integrantes</span>
-                </a>
-            </li>
-            <li>
-                <a href="http://localhost:1313/hugo-prototipo/sobre/" title="Sobre o Projeto">
-                    <span>Sobre o Projeto</span>
-                </a>
-            </li>
-        </ul>
-    </nav>
-</header>
-<main class="main">
-
-<article class="post-single">
-  <header class="post-header">
     
-    <h1 class="post-title entry-hint-parent">
-      O Nosso Guia Completo do Hugo
-    </h1>
-    <div class="post-meta"><span title='2025-11-10 22:15:00 -0300 -03'>November 10, 2025</span>&nbsp;·&nbsp;<span>Lizandra, Bruna e Gabriel</span>
+</head>
+<body>
+    <!-- header.html -->
+<header class="pagewidth">
+    <div id="background-header" class="background" aria-hidden="true"></div>
+    
+    <nav aria-label="Bypass">
+        <a id="to-content" href="#list-posts" aria-label="Skip to Main Content">
+            <span>Skip to Main Content</span>
+            <kbd class="key" aria-hidden="true" data-key="c"></kbd>
+            <span class="screening" aria-hidden="true"></span>
+        </a>
+    </nav>
+    
+    
+    <details class="presentation" id="top-nav">
+        <summary class="on-deck">
+            <span class="t">Navigation</span>
+            <span class="menu-icon" role="presentation"></span>
+        </summary>
+        <nav tabindex="-1" aria-label="Top">
+            <!-- menu.html -->
+    <details id="has-main-menu" class="presentation" open>
+        <summary  class="hide"  aria-label="Main Menu">
+            <span>Main Menu</span>
+        </summary>
+            
+            <nav id="main-menu" aria-label="Main Menu">
+                <ul class="l1   has-childfree " role="presentation" tabindex="-1" >
+                    
+    
+        <li role="presentation" >
+    <a   class=on-deck href=/>
+        
+            <span>
+                Home</span>
+    </a>
+        </li>
+        <li role="presentation" >
+    <a   class=on-deck href=/equipe/>
+        
+            <span>
+                Integrantes</span>
+    </a>
+        </li>
+        <li role="presentation" >
+    <a   class=on-deck href=/sobre/>
+        
+            <span>
+                Sobre o Projeto</span>
+    </a>
+        </li>
+                </ul>
+            </nav>
+    </details>
+            
+            <!-- menu.html -->
+            <!-- i18n.html -->
 
-</div>
-  </header> 
-  <div class="post-content"><p>Bem-vindo ao nosso projeto! Este site foi inteiramente construído com <strong>Hugo</strong>, e esta página serve como um guia prático sobre como o fizemos e como a ferramenta funciona.</p>
+        </nav>
+        <div id="top-nav-screen" class="screening js-cpn" role="presentation" aria-hidden="true"></div>
+        <hr class="hide"/>
+    </details>
+</header>
+    
+    <!-- [main] baseof.html -->
+    <main id="home">
+        <!-- main/header.html -->
+        <div id="top" role="presentation">
+            
+        </div>
+        
+    <article id="main-article" class="pagewidth sf"
+        role="document" aria-labelledby="title"
+            data-pagefind-ignore="all">
+        <header aria-labelledby="title">
+            
+            <!-- title.html -->
+        <h1 id="title"
+            data-bionRead-safe
+            >O Nosso Guia Completo do Hugo</h1>
+        </header>
+        <!-- audio.html -->
+        <section id="content" class="content " aria-labelledby="title" data-bionRead-safe>
+                <p>Bem-vindo ao nosso projeto! Este site foi inteiramente construído com <strong>Hugo</strong>, e esta página serve como um guia prático sobre como o fizemos e como a ferramenta funciona.</p>
 <hr>
-<h2 id="1-o-que-é-o-hugo">1. O que é o Hugo?<a hidden class="anchor" aria-hidden="true" href="#1-o-que-é-o-hugo">#</a></h2>
+<h2 id="1-o-que-é-o-hugo">1. O que é o Hugo?</h2>
 <p>O Hugo é um <strong>Gerador de Sites Estáticos (SSG)</strong> de código aberto, escrito na linguagem Go.</p>
 <p>Diferente de sistemas como o WordPress, que precisam de um banco de dados e processamento no servidor a cada visita, o Hugo &ldquo;constrói&rdquo; o site <strong>uma única vez</strong>. Ele pega os seus ficheiros de conteúdo (Markdown) e os seus templates (HTML) e gera um site 100% estático (HTML, CSS e JavaScript puros).</p>
 <p><strong>As principais vantagens são:</strong></p>
@@ -141,7 +130,7 @@
 </ul>
 <p>O Hugo foi criado em 2013 por Steve Francia e é hoje mantido por Bjørn Erik Pedersen e uma grande comunidade.</p>
 <hr>
-<h2 id="2-a-arquitetura-do-hugo-como-funciona">2. A Arquitetura do Hugo: Como Funciona?<a hidden class="anchor" aria-hidden="true" href="#2-a-arquitetura-do-hugo-como-funciona">#</a></h2>
+<h2 id="2-a-arquitetura-do-hugo-como-funciona">2. A Arquitetura do Hugo: Como Funciona?</h2>
 <p>O Hugo funciona através de uma estrutura de pastas muito lógica. Para construir este site, nós focámo-nos nestas pastas principais:</p>
 <ul>
 <li>
@@ -166,7 +155,7 @@ Em vez de usar a pasta <code>layouts/</code>, nós instalámos um tema pré-feit
 </li>
 </ul>
 <hr>
-<h2 id="3-principais-comandos-do-hugo">3. Principais Comandos do Hugo<a hidden class="anchor" aria-hidden="true" href="#3-principais-comandos-do-hugo">#</a></h2>
+<h2 id="3-principais-comandos-do-hugo">3. Principais Comandos do Hugo</h2>
 <p>Para este projeto, alguns comandos foram essenciais no nosso dia a dia:</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#75715e"># 1. Iniciar o servidor de desenvolvimento</span>
 </span></span><span style="display:flex;"><span><span style="color:#75715e"># O &#39;-D&#39; força a exibição de &#39;drafts&#39; (rascunhos)</span>
@@ -192,91 +181,66 @@ Este projeto não foi só sobre código; foi sobre gestão. Usámos as ferrament
 <p>Back-end/DevOps (Bruna): Focou-se na automação. Ela escreveu o ficheiro .gitlab-ci.yml que permite a Integração e Deploy Contínuos (CI/CD). Graças ao seu trabalho, sempre que enviamos código (git push) para o GitLab, o Hugo constrói o site e publica-o no GitLab Pages automaticamente.</p>
 <p>Front-End (Lizandra): Focou-se na experiência do utilizador. Ela pesquisou e instalou o tema PaperMod, configurou o hugo.toml (menus, modo dark/light) e criou a estrutura de conteúdo (perfis, guia) que você está a ler agora, garantindo os requisitos de acessibilidade e performance.</p>
 
-
-  </div>
-
-  <footer class="post-footer">
-    <ul class="post-tags">
-    </ul>
-  </footer>
-</article>
-    </main>
+        </section>
+    </article>
+        <div id="exclude" role="presentation">
+            <!-- excluded last block frome some RSS reader and browser reader mode -->
+            
+    <hr class="hide" style="margin: 1in 0;">
+    <div id="contentinfo" class="pagewidth" role="contentinfo" data-pagefind-ignore="all">
+    </div>
     
-<footer class="footer">
-        <span>&copy; 2025 <a href="http://localhost:1313/hugo-prototipo/">Portfólio da Equipe</a></span> · 
+        
+        <!-- main/footer.html -->
+        </div>
+    </main>
+    <!-- footer.html -->
+<footer id="body-footer" class="pagewidth" style="display: none;">
+    <div id="background-footer" class="background hide" role="presentation" aria-hidden="true"></div>
+    <div id="focusMode"></div>
+    <!-- a11y.html --><details id="has-a11y" class="presentation js-details hide" name="on-deck" aria-haspopup="true" aria-labelledby="has-a11y-summary"
+    data-i18n-accessibility="Accessibility"
+    data-i18n-optimizeSR="Screen Reader Optimization"
+    data-i18n-optimizeSRdesc="Optimize display and resources for screen reader users who navigate with a pointer device."
+    data-i18n-colorSettings="Color Settings"
+    data-i18n-darkMode="Dark Mode"
+    data-i18n-light="Light"
+    data-i18n-dark="Dark"
+    data-i18n-contrast="Contrast"
+    data-i18n-lessContrast="Low"
+    data-i18n-moreContrast="High"
+    data-i18n-defaultContrast="Default"
+    data-i18n-colorPalette="Color Palette"
+    data-i18n-defaultColor="Default"
+    data-i18n-deuteranopia="Deuteranopia"
+    data-i18n-protanopia="Protanopia"
+    data-i18n-tritanopia="Tritanopia"
+    data-i18n-monochrome="Monochrome"
+    data-i18n-fontSize="Font Size"
+    data-i18n-baselineStretch="Baseline Stretch"
+    data-i18n-OpenDyslexic="Use OpenDyslexic Font"
+    data-i18n-menuControls="Accessibility Menu Controls"
+    data-i18n-save="Save"
+    data-i18n-reset="Reset"
+    data-i18n-close="Close"
+    data-i18n-bionRead="BionRead Mode"
+    data-i18n-focusMode="Focus Mode"
+    data-i18n-noLocalStorage="LocalStorage is not available in your browser. Settings won&#39;t be saved.">
+</details>
 
-    <span>
-        Powered by
-        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
-        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
-    </span>
+
+    <div id="useBionRead" class="sri"></div>
+    <!-- [top] bypass block -->
+    <nav aria-label="Bypass">
+        <a id="to-top" class="srm" href="#top" title="To Content Top" accesskey="c" aria-keyshortcuts="c" aria-label="To Content Top">
+            <span class="t srt">To Content Top</span>
+            <kbd class="key" aria-hidden="true" data-key="c"></kbd>
+        </a>
+    </nav>
 </footer>
-<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
-        <path d="M12 6H0l6-6z" />
-    </svg>
-</a>
-
-<script>
-    let menu = document.getElementById('menu');
-    if (menu) {
-        
-        const scrollPosition = localStorage.getItem("menu-scroll-position");
-        if (scrollPosition) {
-            menu.scrollLeft = parseInt(scrollPosition, 10);
-        }
-        
-        menu.onscroll = function () {
-            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
-        }
-    }
-
-    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-        anchor.addEventListener("click", function (e) {
-            e.preventDefault();
-            var id = this.getAttribute("href").substr(1);
-            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
-                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
-                    behavior: "smooth"
-                });
-            } else {
-                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
-            }
-            if (id === "top") {
-                history.replaceState(null, null, " ");
-            } else {
-                history.pushState(null, null, `#${id}`);
-            }
-        });
-    });
-
-</script>
-<script>
-    var mybutton = document.getElementById("top-link");
-    window.onscroll = function () {
-        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
-            mybutton.style.visibility = "visible";
-            mybutton.style.opacity = "1";
-        } else {
-            mybutton.style.visibility = "hidden";
-            mybutton.style.opacity = "0";
-        }
-    };
-
-</script>
-<script>
-    document.getElementById("theme-toggle").addEventListener("click", () => {
-        const html = document.querySelector("html");
-        if (html.dataset.theme === "dark") {
-            html.dataset.theme = 'light';
-            localStorage.setItem("pref-theme", 'light');
-        } else {
-            html.dataset.theme = 'dark';
-            localStorage.setItem("pref-theme", 'dark');
-        }
-    })
-
-</script>
-</body>
-
+    
+    <!-- [post] single.html -->
+    <div id="bionReadSnapshot" hidden></div>
+    <!-- [background] baseof.html -->
+    <div id="background-body" role="presentation" aria-hidden="true"></div>
 </html>

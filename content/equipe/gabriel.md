@@ -3,12 +3,9 @@ title: "Perfil: Gabriel"
 date: 2025-11-10T21:46:00-03:00
 draft: false
 description: "Gestor de Projetos da equipe."
-
-# Coloque a foto dele em 'static/images/gabriel-perfil.jpg'
-cover:
-    image: "/images/gabss.jpg"
-    alt: "Foto de perfil do Gabriel"
+image: "/images/gabsss.jpg"
 ---
+
 
 Eu sou o Gabriel, o **Gestor de Projetos** (GP) da equipe.
 
