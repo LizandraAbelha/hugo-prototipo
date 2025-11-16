@@ -1,0 +1,6 @@
+[build]
+command = "hugo --baseURL $DEPLOY_URL"
+publish = "public"
+
+[build.environment]
+HUGO_VERSION = "0.150.0"
