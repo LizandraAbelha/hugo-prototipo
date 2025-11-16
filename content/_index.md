@@ -65,6 +65,7 @@ git submodule add [URL_DO_TEMA] themes/[NOME_DO_TEMA]
 # 4. Construir o site final
 # Este é o comando que o GitLab CI/CD roda. 
 # Ele gera a pasta 'public/' com o site pronto.
+hugo
 ```
 
 4. Como Este Site Foi Gerido
@@ -75,3 +76,4 @@ Gestor (Gabriel): Definiu o escopo e criou todas as tarefas (ex: "Criar página 
 Back-end/DevOps (Bruna): Focou-se na automação. Ela escreveu o ficheiro .gitlab-ci.yml que permite a Integração e Deploy Contínuos (CI/CD). Graças ao seu trabalho, sempre que enviamos código (git push) para o GitLab, o Hugo constrói o site e publica-o no GitLab Pages automaticamente.
 
 Front-End (Lizandra): Focou-se na experiência do utilizador. Ela pesquisou e instalou o tema PaperMod, configurou o hugo.toml (menus, modo dark/light) e criou a estrutura de conteúdo (perfis, guia) que você está a ler agora, garantindo os requisitos de acessibilidade e performance.
+
