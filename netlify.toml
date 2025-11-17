@@ -1,7 +1,7 @@
 [build]
-command = "hugo --baseURL $DEPLOY_URL"
-publish = "public"
+command = "hugo"
+  publish = "public"
 
 [build.environment]
-HUGO_VERSION = "0.150.0"
-GIT_SUBMODULES_ENABLED = "true"
+  HUGO_VERSION = "0.150.0"
+  GIT_SUBMODULES_ENABLED = "true"
